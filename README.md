@@ -5,7 +5,7 @@ A prometheus module for Nest.
 ## Installation
 
 ```bash
-$ npm install --save @remryahirev/nestjs-prom prom-client
+$ npm install --save rem-nestjs-prom prom-client
 ```
 
 ## How to use
@@ -14,7 +14,7 @@ Import `PromModule` into the root `ApplicationModule`
 
 ```typescript
 import { Module } from '@nestjs/common';
-import { PromModule } from '@remryahirev/nestjs-prom';
+import { PromModule } from 'rem-nestjs-prom';
 
 @Module({
   imports: [
@@ -52,7 +52,7 @@ By default, this feature is disabled.
 
 ```typescript
 import { Module } from '@nestjs/common';
-import { PromModule } from '@remryahirev/nestjs-prom';
+import { PromModule } from 'rem-nestjs-prom';
 
 @Module({
   imports: [
@@ -111,7 +111,7 @@ You have the following decorators:
 Below how to use it
 
 ```typescript
-import { CounterMetric, PromCounter } from '@remryahirev/nestjs-prom';
+import { CounterMetric, PromCounter } from 'rem-nestjs-prom';
 
 @Controller()
 export class AppController {
@@ -135,7 +135,7 @@ export class AppController {
 ```
 
 ```typescript
-import { GaugeMetric, PromGauge } from '@remryahirev/nestjs-prom';
+import { GaugeMetric, PromGauge } from 'rem-nestjs-prom';
 
 @Controller()
 export class AppController {
