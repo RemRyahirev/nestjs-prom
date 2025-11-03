@@ -1,6 +1,6 @@
 {
   "name": "rem-nestjs-prom",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A promotheus module for nestjs",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -23,9 +23,9 @@
   "author": "Andrey Ryahovskiy <remryahirev@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "@nestjs/common": "^10.1.2",
-    "@nestjs/core": "^10.1.2",
-    "@nestjs/platform-express": "^10.1.2",
+    "@nestjs/common": "^11.1.8",
+    "@nestjs/core": "^11.1.8",
+    "@nestjs/platform-express": "^11.1.8",
     "@types/jest": "^29.5.3",
     "@types/node": "^20.4.5",
     "@types/response-time": "^2.3.5",
@@ -45,7 +45,7 @@
     "rxjs": ">= 6.0.0"
   },
   "dependencies": {
-    "@nestjs/testing": "^10.1.2",
+    "@nestjs/testing": "^11.1.8",
     "prom-client": "^14.2.0",
     "response-time": "^2.3.2",
     "url-value-parser": "^2.2.0"
